@@ -1,13 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
   <rect width="32" height="32" fill="#F4F0E8"/>
   <!-- rule top thick -->
-  <line x1="5" y1="8" x2="27" y2="8" stroke="#111" stroke-width="2"/>
-  <!-- rule thin -->
-  <line x1="5" y1="12" x2="27" y2="12" stroke="#111" stroke-width="0.8"/>
+  <line x1="2" y1="5" x2="30" y2="5" stroke="#171515" stroke-width="3"/>
   <!-- filled bar -->
-  <rect x="5" y="15" width="22" height="5" fill="#111"/>
+  <rect x="2" y="10" width="28" height="8" fill="##171515"/>
   <!-- rule thin -->
-  <line x1="5" y1="23" x2="27" y2="23" stroke="#111" stroke-width="0.8"/>
+  <line x1="2" y1="22" x2="30" y2="22" stroke="#171515" stroke-width="1,2"/>
   <!-- rule bottom thick -->
-  <line x1="5" y1="27" x2="27" y2="27" stroke="#111" stroke-width="2"/>
+  <line x1="2" y1="26" x2="30" y2="26" stroke="#171515" stroke-width="3"/>
 </svg>
