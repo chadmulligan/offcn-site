@@ -20,14 +20,13 @@
       padding: 24px;
     }
 
-    .logo {
+    .wrapper {
       width: 100%;
       max-width: 900px;
     }
 
-    .wrapper {
+    .logo {
       width: 100%;
-      max-width: 900px;
     }
 
     .contact {
@@ -36,50 +35,25 @@
       margin-top: 20px;
       font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
       font-weight: 300;
-      font-size: 11px;
-      letter-spacing: 9px;
+      font-size: 13px;
+      letter-spacing: 4px;
       color: #111111;
       text-transform: lowercase;
     }
   </style>
 </head>
 <body>
-  <!--
-    Key responsive change:
-    - Removed width="620" height="300" from the <svg> tag
-    - The viewBox is kept so the SVG scales proportionally
-    - CSS controls actual size: 100% wide, capped at 620px
-  -->
 <div class="wrapper">
-  <svg class="logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 300">
-    <rect width="620" height="300" fill="#F4F0E8"/>
+  <svg id="logo" class="logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 300">
+    <rect width="620" height="300" fill="#F4F0E8"></rect>
 
-    <line x1="65" y1="77" x2="542" y2="77" stroke="#111111" stroke-width="2"/>
+    <!-- OFFCN lines + text -->
+    <line id="line-top" stroke="#111111" stroke-width="2" x1="112" x2="525" y1="77" y2="77"></line>
+    <text id="text-main" x="310" y="205" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="800" font-size="148" letter-spacing="-21" text-anchor="middle" fill="#111111">OFFCN</text>
+    <line id="line-thin" stroke="#111111" stroke-width="0.8" x1="112" x2="525" y1="222" y2="222"></line>
+    <line id="line-thick" stroke="#111111" stroke-width="2" x1="112" x2="525" y1="228" y2="228"></line>
 
-    <text
-      x="300"
-      y="205"
-      font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
-      font-weight="800"
-      font-size="148"
-      letter-spacing="-2"
-      text-anchor="middle"
-      fill="#111111"
-    >OFFCN</text>
-
-    <line x1="65" y1="222" x2="542" y2="222" stroke="#111111" stroke-width="0.8"/>
-    <line x1="65" y1="228" x2="542" y2="228" stroke="#111111" stroke-width="2"/>
-
-    <text
-      x="300"
-      y="260"
-      font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
-      font-weight="300"
-      font-size="11"
-      letter-spacing="9"
-      text-anchor="middle"
-      fill="#111111"
-    >PRODUCTIONS</text>
+    <text id="text-sub" x="315" y="260" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="450" font-size="12" letter-spacing="6" text-anchor="middle" fill="#111111">PRODUCTIONS</text>
   </svg>
   <span class="contact">info[at]officina.productions</span>
 </div>
