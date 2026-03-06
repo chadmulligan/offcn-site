@@ -22,8 +22,24 @@
 
     .logo {
       width: 100%;
-      max-width: 620px;
-      /* height scales automatically because the SVG has a viewBox */
+      max-width: 900px;
+    }
+
+    .wrapper {
+      width: 100%;
+      max-width: 900px;
+    }
+
+    .contact {
+      display: block;
+      text-align: center;
+      margin-top: 20px;
+      font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      font-weight: 300;
+      font-size: 11px;
+      letter-spacing: 9px;
+      color: #111111;
+      text-transform: lowercase;
     }
   </style>
 </head>
@@ -34,6 +50,7 @@
     - The viewBox is kept so the SVG scales proportionally
     - CSS controls actual size: 100% wide, capped at 620px
   -->
+<div class="wrapper">
   <svg class="logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 300">
     <rect width="620" height="300" fill="#F4F0E8"/>
 
@@ -64,5 +81,7 @@
       fill="#111111"
     >PRODUCTIONS</text>
   </svg>
+  <span class="contact">info[at]officina.productions</span>
+</div>
 </body>
 </html>
