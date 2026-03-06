@@ -3,11 +3,11 @@
   <!-- rule top thick -->
   <line x1="5" y1="8" x2="27" y2="8" stroke="#111" stroke-width="2"/>
   <!-- rule thin -->
-  <line x1="5" y1="13" x2="27" y2="13" stroke="#111" stroke-width="0.8"/>
+  <line x1="5" y1="12" x2="27" y2="12" stroke="#111" stroke-width="0.8"/>
   <!-- filled bar -->
-  <rect x="5" y="17" width="22" height="5" fill="#111"/>
+  <rect x="5" y="15" width="22" height="5" fill="#111"/>
   <!-- rule thin -->
-  <line x1="5" y1="25" x2="27" y2="25" stroke="#111" stroke-width="0.8"/>
+  <line x1="5" y1="23" x2="27" y2="23" stroke="#111" stroke-width="0.8"/>
   <!-- rule bottom thick -->
-  <line x1="5" y1="29" x2="27" y2="29" stroke="#111" stroke-width="2"/>
+  <line x1="5" y1="27" x2="27" y2="27" stroke="#111" stroke-width="2"/>
 </svg>
